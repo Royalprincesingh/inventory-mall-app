@@ -1,0 +1,160 @@
+{
+  "products": [
+    {
+      "name": "Wireless Headphones",
+      "sku": "SKU-001",
+      "barcode": "BAR-001",
+      "category": "Electronics",
+      "brand": "TechPro",
+      "quantity": 45,
+      "minStock": 10,
+      "costPrice": 2000,
+      "sellingPrice": 4500,
+      "description": "High quality wireless headphones",
+      "soldUnits": 120,
+      "status": "in_stock"
+    },
+    {
+      "name": "Designer T-Shirt",
+      "sku": "SKU-002",
+      "barcode": "BAR-002",
+      "category": "Clothing",
+      "brand": "FashionPlus",
+      "quantity": 120,
+      "minStock": 20,
+      "costPrice": 500,
+      "sellingPrice": 1200,
+      "description": "Premium designer t-shirt",
+      "soldUnits": 250,
+      "status": "in_stock"
+    },
+    {
+      "name": "Organic Coffee Beans",
+      "sku": "SKU-003",
+      "barcode": "BAR-003",
+      "category": "Food & Beverages",
+      "brand": "FreshFoods",
+      "quantity": 5,
+      "minStock": 15,
+      "costPrice": 300,
+      "sellingPrice": 700,
+      "description": "Freshly roasted organic coffee",
+      "soldUnits": 89,
+      "status": "low_stock"
+    },
+    {
+      "name": "Ceramic Dinner Set",
+      "sku": "SKU-004",
+      "barcode": "BAR-004",
+      "category": "Home & Kitchen",
+      "brand": "HomeComfort",
+      "quantity": 22,
+      "minStock": 5,
+      "costPrice": 1500,
+      "sellingPrice": 3500,
+      "description": "Beautiful ceramic dinner set",
+      "soldUnits": 45,
+      "status": "in_stock"
+    },
+    {
+      "name": "Natural Face Cream",
+      "sku": "SKU-005",
+      "barcode": "BAR-005",
+      "category": "Beauty & Personal Care",
+      "brand": "BeautyWorld",
+      "quantity": 38,
+      "minStock": 10,
+      "costPrice": 800,
+      "sellingPrice": 2200,
+      "description": "Natural and organic face cream",
+      "soldUnits": 156,
+      "status": "in_stock"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Electronics",
+      "description": "Electronic gadgets and devices"
+    },
+    {
+      "name": "Clothing",
+      "description": "Apparel and fashion items"
+    },
+    {
+      "name": "Food & Beverages",
+      "description": "Food and drink products"
+    },
+    {
+      "name": "Home & Kitchen",
+      "description": "Home and kitchen items"
+    },
+    {
+      "name": "Beauty & Personal Care",
+      "description": "Beauty and personal care"
+    }
+  ],
+  "stores": [
+    {
+      "name": "Electronics Store",
+      "location": "Ground Floor",
+      "manager": "John Doe",
+      "phone": "9876543210",
+      "email": "john@mall.com",
+      "openingTime": "09:00",
+      "closingTime": "21:00",
+      "address": "Mall Ground Floor"
+    },
+    {
+      "name": "Fashion Boutique",
+      "location": "Level 1",
+      "manager": "Sarah Smith",
+      "phone": "9876543211",
+      "email": "sarah@mall.com",
+      "openingTime": "09:00",
+      "closingTime": "21:00",
+      "address": "Mall Level 1"
+    },
+    {
+      "name": "Food Court",
+      "location": "Level 2",
+      "manager": "Mike Johnson",
+      "phone": "9876543212",
+      "email": "mike@mall.com",
+      "openingTime": "09:00",
+      "closingTime": "23:00",
+      "address": "Mall Level 2"
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "Global Supplies Inc",
+      "contactPerson": "Alex Brown",
+      "phone": "9876543210",
+      "email": "alex@global.com",
+      "address": "123 Business St",
+      "city": "Mumbai",
+      "paymentTerms": "Net 30",
+      "rating": 4.5
+    },
+    {
+      "name": "Asian Wholesalers Ltd",
+      "contactPerson": "Chen Wei",
+      "phone": "9876543211",
+      "email": "chen@asian.com",
+      "address": "456 Trade Ave",
+      "city": "Delhi",
+      "paymentTerms": "Net 45",
+      "rating": 4.2
+    },
+    {
+      "name": "European Trade Co",
+      "contactPerson": "Marco Rossi",
+      "phone": "9876543212",
+      "email": "marco@euro.com",
+      "address": "789 Import Rd",
+      "city": "Bangalore",
+      "paymentTerms": "Net 60",
+      "rating": 4.8
+    }
+  ]
+}
